@@ -29,6 +29,7 @@ header#cabecalho img#icone{
 header#cabecalho{
     border-bottom: 1px #606060 solid;
     height: 150px;
+    background: url('../_imagens/glass-logo-peq.jpg');
 }
 
 /* Formatação de imagens com legendas */
