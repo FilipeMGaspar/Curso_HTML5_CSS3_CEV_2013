@@ -57,7 +57,11 @@ nav#menu li{
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s;
+   /* transition: background-color 1s;*/
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
 }
 
 nav#menu li:hover{
