@@ -22,12 +22,13 @@ p{
 
 header#cabecalho img#icone{
     position: absolute;
-    top: 40px;
-    left: 900px;
+    top: 68px;
+    left: 990px;
 }
 
 header#cabecalho{
-
+    border-bottom: 1px #606060 solid;
+    height: 150px;
 }
 
 /* Formatação de imagens com legendas */
