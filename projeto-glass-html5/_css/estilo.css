@@ -38,13 +38,14 @@ header#cabecalho h1{
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     padding: 0px;
-    margin-bottom: ;
+    margin-bottom: 0px;
 }
 
 header#cabecalho h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #888888;
     padding: 0px;
+    margin-top: 0px;
 }
 
 /* Formatação de imagens com legendas */
