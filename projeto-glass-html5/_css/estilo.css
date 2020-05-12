@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 body{
-    background-color: white;
+    background-color:#dddddd;
     color: rgba(0, 0, 0, 1);
+}
+
+/*Formatação da div interface */
+
+div#interface{
+    width: 400px;
+    background-color: whitesmoke;
+    margin: auto;
 }
 
 p{
@@ -78,4 +86,3 @@ nav#menu a:hover{
     text-decoration: underline;
 }
 
-/* */
