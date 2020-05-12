@@ -42,4 +42,5 @@ figure.foto-legenda :hover{
 /* Formatação do menu */
 nav#menu ul{
     list-style-type: none;
+    text-transform: uppercase;
 }
