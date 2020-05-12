@@ -44,3 +44,8 @@ nav#menu ul{
     list-style-type: none;
     text-transform: uppercase;
 }
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+}
