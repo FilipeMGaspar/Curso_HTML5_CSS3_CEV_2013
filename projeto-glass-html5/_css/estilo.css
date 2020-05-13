@@ -128,6 +128,8 @@ section#corpo{
     display: block;
     width: 500px;
     float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
 }
 
 aside#lateral{
@@ -139,6 +141,10 @@ aside#lateral{
 /* Configuração do footer*/
 
 footer#rodape{
-    clear: both;
-        
+    clear: both;  
+    border-top: 1px solid #606066;  
+}
+
+footer#rodape p{
+    text-align: center;
 }
