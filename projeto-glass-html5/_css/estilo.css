@@ -150,13 +150,18 @@ table#tabelaspec td{
 table#tabelaspec td.ce{
     color: white;
     background-color: #606060;
+    /*vertical-align: top;*/
     vertical-align: top;
+    text-align: right;
     font-weight: bold;
 }
 
 table#tabelaspec td.cd{
     background-color: #cecece;
+    text-align: left;
 }
+
+/* Formatação da legenda da tabela; que fica sobre a tabela*/
 
 table#tabelaspec caption{
     color: #888888;
