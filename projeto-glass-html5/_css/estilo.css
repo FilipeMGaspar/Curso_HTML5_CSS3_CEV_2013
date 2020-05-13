@@ -164,6 +164,14 @@ table#tabelaspec caption{
     font-weight: bolder;
 }
 
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
 /* Formatação do conteúdo lateral do site */
 
 aside#lateral{
