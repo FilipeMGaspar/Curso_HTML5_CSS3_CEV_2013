@@ -149,3 +149,6 @@ footer#rodape p{
     text-align: center;
 }
 
+footer#rodape a{
+    text-decoration: none;
+}
