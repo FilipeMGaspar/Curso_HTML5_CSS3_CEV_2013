@@ -147,6 +147,23 @@ table#tabelaspec td{
     vertical-align: middle;
 }
 
+table#tabelaspec td.ce{
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
 /* Formatação do conteúdo lateral do site */
 
 aside#lateral{
