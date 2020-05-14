@@ -124,12 +124,21 @@ nav#menu a:hover{
 }
 
 /*Configuração da section corpo*/
+
 section#corpo{
     display: block;
     width: 500px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
+}
+
+article#noticiaprincipal h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 5px 5px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 /* Formatação da tabela */
