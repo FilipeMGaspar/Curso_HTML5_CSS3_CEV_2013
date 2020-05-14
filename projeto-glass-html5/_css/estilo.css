@@ -146,7 +146,7 @@ section#corpo{
 }
 
 article#noticiaprincipal h2{
-    font-size: 12pt;
+    font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
     padding: 5px 5px 5px 10px;
@@ -154,7 +154,7 @@ article#noticiaprincipal h2{
 }
 
 header#cabecalho-artigo h1{
-    font-family: fonte-logo, sans-serif;
+    font-family: 'fonte-logo', sans-serif;
     font-size: 20pt;
     color: #606060;
     margin-bottom: 0px;
@@ -197,8 +197,25 @@ aside#lateral{
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+aside#lateral h1{
+    font-family: 'fonte-logo', sans-serif;
+    color: #606060;
+    margin-top: 0px;
+}
+
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;    
+    color: whitesmoke;
+    padding: 5px;
+}
 /* Configuração do footer*/
 
 footer#rodape{
@@ -210,6 +227,3 @@ footer#rodape p{
     text-align: center;
 }
 
-footer#rodape a{
-    text-decoration: none;
-}
