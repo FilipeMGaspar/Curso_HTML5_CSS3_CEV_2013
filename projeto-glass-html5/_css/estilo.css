@@ -8,6 +8,7 @@
 }
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:#dddddd;
     color: rgba(0, 0, 0, 1);
 }
@@ -27,6 +28,17 @@ p{
     text-indent: 50px;
 }
 
+/* Formatação genérica dos links */
+a{
+    text-decoration: none;
+    color: #606060;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
+/* Formatação do cabeçalho da página*/
 header#cabecalho img#icone{
     position: absolute;
     top: 68px;
