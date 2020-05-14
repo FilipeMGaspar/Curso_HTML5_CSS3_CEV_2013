@@ -192,6 +192,20 @@ table#tabelaspec td{
     vertical-align: middle;
 }
 
+table#tabelaspec td.ce{
+    color: white;
+    background-color: #606060;
+    /*vertical-align: top;*/
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+    text-align: left;
+}
+
 /* Formatação do conteúdo lateral do site */
 
 aside#lateral{
