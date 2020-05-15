@@ -173,7 +173,8 @@ header#cabecalho-artigo h3{
     color: #606060;
 }
 
-.direita{
+header#cabecalho-artigo h3.direita{
+    font-size: 8pt;
     text-align: right;
 }
 
