@@ -15,7 +15,3 @@ iframe#frame-spec{
 iframe#frame-spec::-webkit-scrollbar {
     display: none;
 }
-
-iframe#frame-spec::-webkit-scrollbar-button {
-    display: none;
-}
