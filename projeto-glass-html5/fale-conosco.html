@@ -56,7 +56,7 @@
                 
                 <p><label for="Csenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="9" maxlength="9" placeholder="Nove  dígitos"></p>
                 
-                <p>E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="nome@dominio.pt"></p>
+                <p><label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="nome@dominio.pt"></p>
 
                 <fieldset>
                 <legend>Sexo:</legend>
@@ -64,17 +64,13 @@
                         <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label>
                 </fieldset>          
                 
-                <p>Data de Nascimento: <input type="date" name="" id=""> </p>         
+                <p><label for="cData">Data de Nascimento:</label> <input type="date" name="tData" id="cData"> </p>         
             </fieldset>                   
     
             <fieldset id="endereco">
              <legend>Endereço do Utilizador</legend>
-            <p>
-                Logradouro: <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua. Av. Urb. Trav ... ">
-            </p>
-            <p>
-                Número:
-            </p>
+                <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua. Av. Urb. Trav ... "></p>
+                <p>Número: <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
             Estado:
             Cidade:
             </fieldset>
