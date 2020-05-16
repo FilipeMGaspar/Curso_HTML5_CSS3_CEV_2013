@@ -116,17 +116,19 @@
             <fieldset id="pedido">
              <legend>Quero um Google Glass</legend>
             
-             <p><input type="checkbox" name="cPed" id= "Cped">
+             <p><input type="checkbox" name="cPed" id= "Cped" checked>
                  <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label> </p>
 
-            <p><label for="cCor">Cor:</label> </p>
+            <p><label for="cCor">Cor:</label> 
+            <input type="color" id="cCor" name="tCor" value="#0000FF"></p>
             
-            <p><label for="cQtd">Quantidade:</label> </p>
+            <p><label for="cQtd">Quantidade:</label> <input type="number" name="tQtd" id="Cqtd" min="0" max="5" value="0"> </p>
             
-            <p><label for="cTot">Preço Total: R$</label> </p>
+            <p><label for="cTot">Preço Total: R$</label> <input type="text" name="tTot" id="Ctot" placeholder="Total a pagar" readonly></p>
             </fieldset>
     
-            [BOTÃO ENVIAR]
+           <!-- <input type="submit" value="Enviar"> -->
+           <input type="image" src="_imagens/botao-enviar.png" name="tEnviar" >
 
         </form>
 
