@@ -18,14 +18,14 @@ ul#album-fotos li{
     box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
-ul#album-fotos li.foto01{
+ul#album-fotos li#foto01{
     background: url('../_imagens/galeria-01.jpg') no-repeat;
 }
 
-ul#album-fotos li.foto02{
+ul#album-fotos li#foto02{
     background: url('../_imagens/galeria-02.jpg') no-repeat;
 }
 
-ul#album-fotos li.foto03{
+ul#album-fotos li#foto03{
     background: url('../_imagens/galeria-03.jpg') no-repeat;
 }
