@@ -246,6 +246,10 @@ aside#lateral h2{
     color: whitesmoke;
     padding: 5px;
 }
+
+video#filmeAside{
+    width: 350px;
+}
 /* Configuração do footer*/
 
 footer#rodape{
