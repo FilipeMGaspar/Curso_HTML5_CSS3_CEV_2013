@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="_css/estilo.css">
     <link rel="stylesheet" href="_css/form.css">
     <script src="_javascript/funcoes.js"></script>
+    <script>
+        function cal_total(){
+            let qtd = Number(document.getElementById('Cqtd').value)
+            let tot = qtd*1500
+            
+            document.getElementById('cTot').value = tot
+        }
+    </script>
 </head>
 
 <body>
@@ -125,7 +133,7 @@
             
             <p><label for="cQtd">Quantidade:</label> <input type="number" name="tQtd" id="Cqtd" min="0" max="5" value="0"> </p>
             
-            <p><label for="cTot">Preço Total: R$</label> <input type="text" name="tTot" id="Ctot" placeholder="Total a pagar" readonly></p>
+            <p><label for="cTot">Preço Total: R$</label> <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly></p>
             </fieldset>
     
            <!-- <input type="submit" value="Enviar"> -->
