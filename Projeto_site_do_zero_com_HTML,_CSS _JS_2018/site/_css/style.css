@@ -68,7 +68,8 @@ div#menuPrNav{
 }
 
 nav.nenuprincipal{
-    width: 100%;
+    width: 70%;
+    float: left;
 }
 
 ul.menuNav{
@@ -81,17 +82,30 @@ ul.menuNav li{
     margin-top: 37px;
     color: #00bac6;
     margin-left: 13px;
+    margin-bottom: 31px;
 }
 
 ul.menuNav a{
     text-decoration: none;
-    background-color: violet;
 }
 
-ul.menuNav a:hover{
-    text-decoration: underline;
+ul.menuNav a:hover{    
+    border-bottom: 3px solid #00bac6;
+    padding-bottom: 27px;
+}
+    
+    /* Formatação da caixa de pesquisa da barra de menu*/
+
+div.busca{
+    width: 30%;
+    float: right;
 }
 
+input.cxBusca{
+    margin-top: 21px;
+    height: 37px;
+    width: 190px;
+}
 
 /* Formatação para dispositivos móveis*/
 
