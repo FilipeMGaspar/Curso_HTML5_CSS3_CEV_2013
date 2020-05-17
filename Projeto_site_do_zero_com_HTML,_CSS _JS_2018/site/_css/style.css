@@ -102,9 +102,12 @@ div.busca{
 }
 
 input.cxBusca{
+    background: url('../_img/lupa_Cx_busca.png') no-repeat;
+    background-position: 96%;
     margin-top: 21px;
     height: 37px;
     width: 190px;
+    border: 1px solid #d6d6d6;
 }
 
 /* Formatação para dispositivos móveis*/
