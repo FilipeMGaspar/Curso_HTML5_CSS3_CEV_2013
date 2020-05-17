@@ -60,6 +60,7 @@ section.menuNavegacao{
     width: 100%;
     background-color: whitesmoke;
     height: 85px;
+    border-bottom: 2px solid #efefef;
 }
 
 div#menuPrNav{
