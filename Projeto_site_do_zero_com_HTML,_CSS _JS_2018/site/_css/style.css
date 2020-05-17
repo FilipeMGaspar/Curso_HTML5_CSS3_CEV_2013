@@ -10,7 +10,8 @@ body{
 }
 
 div#principal{
-    max-width: 1366px;
+    margin: auto;
+    max-width: 1366px;    
 }
 
 
@@ -42,7 +43,44 @@ div.redessociais{
 
 div.redessociais img{
     margin-right: 15px;
+    clear: both;
 }
+
+div.redessociais ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+div.redessociais ul li{
+    display: inline-block;
+}
+
+/* Formatação do menu de navegação*/
+section.menuNavegacao{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 85px;
+}
+
+nav.nenuprincipal{
+    max-width: 980px;
+    margin: auto;
+}
+
+nav.nenuprincipal ul{
+    list-style: none;
+}
+
+nav.nenuprincipal ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 37px;
+    color: #00bac6;
+    margin-left: 13px;
+}
+
+/* Formatação para dispositivos móveis*/
 
 @media only screen and (max-width: 320px){ 
     div.redessociais img{
@@ -50,3 +88,8 @@ div.redessociais img{
     }
 }
 
+@media only screen and (max-width: 375px){ 
+    div.redessociais img{
+        margin-right: 7px;
+    }
+}
