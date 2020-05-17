@@ -62,8 +62,12 @@ section.menuNavegacao{
     height: 85px;
 }
 
-nav.nenuprincipal{
+div#menuPrNav{
     max-width: 980px;
+}
+
+nav.nenuprincipal{
+    width: 100%;
     margin: auto;
 }
 
@@ -79,6 +83,8 @@ nav.nenuprincipal ul li{
     color: #00bac6;
     margin-left: 13px;
 }
+
+
 
 /* Formatação para dispositivos móveis*/
 
