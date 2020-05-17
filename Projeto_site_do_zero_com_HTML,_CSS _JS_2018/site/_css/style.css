@@ -10,15 +10,21 @@ body{
 }
 
 div#principal{
-    width: 1366px;
+    max-width: 1366px;
 }
+
+
 
 /*Formatação do topo da página*/
 
 header.logo-rdsociais{
     height: 60px;
     margin: auto;
-    width: 980px;
+    max-width: 980px;
+}
+
+header.logo-rdsociais main{
+    width: 100%;
 }
 
 div.logo{
