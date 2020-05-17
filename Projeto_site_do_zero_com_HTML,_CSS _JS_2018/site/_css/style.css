@@ -14,7 +14,6 @@ div#principal{
 }
 
 
-
 /*Formatação do topo da página*/
 
 header.logo-rdsociais{
@@ -29,6 +28,25 @@ header.logo-rdsociais main{
 
 div.logo{
     padding: 10px;
+    display: block;
+    position: relative;
+    float: left;
 }
 
+div.redessociais{
+    padding: 10px;
+    display: block;
+    position: relative;
+    float: right;
+}
+
+div.redessociais img{
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 320px){ 
+    div.redessociais img{
+        margin-right: 5px;
+    }
+}
 
