@@ -106,10 +106,32 @@ input.cxBusca{
     height: 37px;
     width: 190px;
     border: 1px solid #d6d6d6;
+    clear: both;
 }
 
+/*Configuração do banner da página*/
+section#banner{
+    height: 446px;
+    box-sizing: border-box;
+    background: url('../_img/banner.jpg');
+}
 
+section#banner h1{
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    padding-top: 223px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
+section#banner p{
+    text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+    padding-bottom: 180px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
 /* Formatação para dispositivos móveis*/
 
