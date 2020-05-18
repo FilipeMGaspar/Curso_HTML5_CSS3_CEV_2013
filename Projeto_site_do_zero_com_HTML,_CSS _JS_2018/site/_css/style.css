@@ -17,7 +17,7 @@ div#principal{
 
 /*Formatação do topo da página*/
 
-header.logo-rdsociais{
+header.logo-rdsociais{/* Ver possibilidade de elimar esta configuração */
     height: 60px;
     margin: auto;
     max-width: 980px;
@@ -63,7 +63,8 @@ section.menuNavegacao{
     border-bottom: 2px solid #efefef;
 }
 
-div#menuPrNav{
+
+div#menuPrNav{/* Ver possibilidade de elimar esta configuração */
     max-width: 980px;
     margin: auto;
 }
@@ -110,6 +111,9 @@ input.cxBusca{
     width: 190px;
     border: 1px solid #d6d6d6;
 }
+
+
+
 
 /* Formatação para dispositivos móveis*/
 
