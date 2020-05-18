@@ -20,7 +20,7 @@ div#principal{
 header.logo-rdsociais{/* Ver possibilidade de elimar esta configuração */
     height: 60px;
     margin: auto;
-    max-width: 980px;
+    /*max-width: 980px;*/
 }
 
 header.logo-rdsociais main{
@@ -63,11 +63,11 @@ section.menuNavegacao{
     border-bottom: 2px solid #efefef;
 }
 
-
+/*
 div#menuPrNav{/* Ver possibilidade de elimar esta configuração */
-    max-width: 980px;
+/*    max-width: 980px;
     margin: auto;
-}
+}*/
 
 nav.nenuprincipal{
     width: 70%;
