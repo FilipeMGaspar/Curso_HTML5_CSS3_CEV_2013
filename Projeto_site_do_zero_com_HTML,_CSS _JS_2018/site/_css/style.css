@@ -11,24 +11,25 @@ body{
 
 div#principal{
     margin: auto;
-    max-width: 1366px;    
+    max-width: 980px;    
 }
 
 
 /*Formatação do topo da página*/
 
-header.logo-rdsociais{/* Ver possibilidade de elimar esta configuração */
+header.logo-rdsociais{
     height: 60px;
     margin: auto;
-    /*max-width: 980px;*/
 }
 
 header.logo-rdsociais main{
     width: 100%;
+    margin-top: 10px;
 }
 
 div.logo{
     padding: 10px;
+    margin-left: 10px;
     display: block;
     position: relative;
     float: left;
@@ -36,6 +37,7 @@ div.logo{
 
 div.redessociais{
     padding: 10px;
+    margin-right: 10px;
     display: block;
     position: relative;
     float: right;
@@ -62,12 +64,6 @@ section.menuNavegacao{
     height: 85px;
     border-bottom: 2px solid #efefef;
 }
-
-/*
-div#menuPrNav{/* Ver possibilidade de elimar esta configuração */
-/*    max-width: 980px;
-    margin: auto;
-}*/
 
 nav.nenuprincipal{
     width: 70%;
@@ -99,7 +95,7 @@ ul.menuNav a:hover{
     /* Formatação da caixa de pesquisa da barra de menu*/
 
 div.busca{
-    width: 30%;
+    width: 30%;   
     float: right;
 }
 
