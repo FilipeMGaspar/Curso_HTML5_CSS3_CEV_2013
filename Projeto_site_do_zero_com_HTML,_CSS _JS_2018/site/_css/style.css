@@ -11,12 +11,13 @@
 /*formatação da div principal*/
 div#principal{
     width: 980px;
+    margin: auto;
 }
 
 /*Fromatação do cabeçalho da página*/
 header.menu-principal{
+    
     width: 100%;
     background-color: #252323;
-    margin: auto;
 }
 
