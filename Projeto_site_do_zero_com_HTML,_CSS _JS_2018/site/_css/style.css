@@ -1,1 +1,13 @@
 /* Solução do video so youtube  Escola Front-end */
+
+/* Formatação do cabeçalho:
+ - onde se encontra o logotipo
+ e as redes sociais
+ */
+div.header-1{
+    background-color: #252323;
+    height: 60px;
+}
+
+
+
