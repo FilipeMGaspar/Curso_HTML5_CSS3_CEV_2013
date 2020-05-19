@@ -12,6 +12,13 @@ body{
  header.menu-principal{
     background-color: #252323;
     height: 60px;
+    width: 100%;
+}
+
+header.menu-principal main{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
 }
 
 
