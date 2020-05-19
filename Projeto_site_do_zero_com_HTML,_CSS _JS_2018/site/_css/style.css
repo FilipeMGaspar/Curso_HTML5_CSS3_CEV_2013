@@ -21,6 +21,21 @@ header.menu-principal main{
     position: relative;
 }
 
+div.logo{
+    width: 70%;
+    padding: 15px;
+    float: left;
+}
+
+div.redes-sociais{
+    width: 20%;
+    float: right;
+}
+
+div.redes-sociais ul li{
+    display: inline-block;
+    list-style: none;
+}
 
 
 
