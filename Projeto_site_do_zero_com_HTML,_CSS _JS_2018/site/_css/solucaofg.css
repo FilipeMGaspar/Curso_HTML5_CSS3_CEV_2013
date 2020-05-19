@@ -16,13 +16,31 @@ body{
 /*formatação da div principal*/
 
 div#principal{
-    width: 980px;
+    max-width: 980px;
     margin: auto;
 }
-
 
 /*Fromatação do cabeçalho da página*/
 
 header.menu-principal{
     width: 100%;
 }
+
+div.logo{
+    float: left;
+    padding: 15px;
+}
+
+div.redes-sociais{
+    float: right;
+    padding: 15px;
+}
+
+div.redes-sociais ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*Formatação do menu de navegação*/
+
