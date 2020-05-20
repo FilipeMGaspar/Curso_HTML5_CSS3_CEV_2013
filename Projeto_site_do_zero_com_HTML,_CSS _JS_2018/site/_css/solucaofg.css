@@ -60,6 +60,9 @@ nav.top-menu ul li{
     line-height: 85px;
 }
 
+nav.top-menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
 
 div.menu{
     position: relative;
