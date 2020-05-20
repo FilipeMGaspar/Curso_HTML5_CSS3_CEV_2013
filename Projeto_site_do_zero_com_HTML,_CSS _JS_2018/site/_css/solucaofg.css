@@ -42,7 +42,7 @@ div.redes-sociais ul li{
     margin-left: 15px;
 }
 
-/*Formatação do menu de navegação*/
+/*Formatação do menu de navegação e da caixa de pesquisa*/
 
 nav.top-menu{
     clear: both;
@@ -57,4 +57,22 @@ nav.top-menu ul li{
     margin-left: 15px;
     text-transform: uppercase;
     line-height: 85px;
+}
+
+
+div.menu{
+    position: relative;
+    float: left;
+}
+
+div.cxbusca{
+    margin-right: 15px;
+    position: relative;
+    float: right;
+    padding: 20px 5px 20px;
+}
+
+input.cxBusca{
+    height: 36px;
+    width: 210px;
 }
