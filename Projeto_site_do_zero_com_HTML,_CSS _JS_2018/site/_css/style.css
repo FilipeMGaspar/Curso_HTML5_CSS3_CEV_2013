@@ -78,6 +78,10 @@ div.menu ul li a{
     text-transform: uppercase;
 }
 
+div.menu ul li a:hover{
+    color: #00bac6;
+}
+
 div.busca{
     width: 30%;
     float: right;
