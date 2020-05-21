@@ -69,8 +69,12 @@ main.menu-urls{
 div.menu ul li{
     display: inline-block;
     margin-left: 10px;
+    height: 45px;
 }
 
+div.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
 div.menu ul li a{
     color: #9a9a9a;
     text-decoration: none;
