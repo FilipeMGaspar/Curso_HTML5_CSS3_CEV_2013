@@ -35,7 +35,7 @@ div.logo{
 }
 
 div.redes-sociais ul li{
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     list-style: none;
     float: left;
@@ -118,4 +118,6 @@ main.col-100{
     float: left;
     position: relative;
 }
+
+/* Formatação do Banner */
 
