@@ -121,3 +121,7 @@ main.col-100{
 
 /* Formatação do Banner */
 
+div.col-100{
+    margin-top: 50px;
+    width: 100%;
+}
