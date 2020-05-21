@@ -50,5 +50,11 @@ div.header-2{
 
 div.menu ul li{
     display: inline;
+}
+
+div.menu ul li a{
     color: #9a9a9a;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
 }
