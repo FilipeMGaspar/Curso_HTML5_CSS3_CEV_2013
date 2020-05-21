@@ -12,20 +12,28 @@ body{
 }
 
  header.menu-principal{
-    background-color: #252323;
-    height: 60px;
     width: 100%;
+    background-color: #252323;
+    height: 60px;    
 }
 
-header.menu-principal main{
-    width: 980px;
+main{ /* Configuração geral para todo o site */
     margin: 0 auto;
+    width: 980px;    
     position: relative;
 }
 
 div.logo{
+    float: left;
+    padding: 16px;
     width: 70%;
-    padding: 15px;
+        
+}
+
+div.redes-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
     float: left;
 }
 
@@ -34,13 +42,13 @@ div.redes-sociais{
     float: right;
 }
 
-div.redes-sociais ul li{
-    display: inline-block;
-    list-style: none;
-    margin-left: 15px;
-}
+
 
 /*Formatação do menu de navegação e caixa de busca*/
+
+/*main{
+   max-width: 980px; 
+}*/
 
 div.header-2{
     background-color: white;
@@ -49,7 +57,8 @@ div.header-2{
 }
 
 div.menu ul li{
-    display: inline;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 div.menu ul li a{
@@ -57,4 +66,19 @@ div.menu ul li a{
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+div.busca{
+    width: 30%;
+    float: right;
+}
+
+div.menu{
+    width: 70%;
+    float: left;
+}
+
+div.busca{
+    width: 30%;
+    float: right;
 }
