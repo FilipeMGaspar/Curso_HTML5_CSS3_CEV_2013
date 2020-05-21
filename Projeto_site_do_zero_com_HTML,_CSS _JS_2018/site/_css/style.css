@@ -40,6 +40,15 @@ div.redes-sociais ul li{
     margin-left: 15px;
 }
 
+/*Formatação do menu de navegação e caixa de busca*/
 
+div.header-2{
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+}
 
-
+div.menu ul li{
+    display: inline;
+    color: #9a9a9a;
+}
