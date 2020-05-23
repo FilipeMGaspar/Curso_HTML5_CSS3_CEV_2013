@@ -15,7 +15,7 @@ body{
 
 /*formatação da div principal*/
 
-div#principal{
+main#principal{
     max-width: 980px;
     margin: auto;
 }
@@ -86,3 +86,15 @@ input.cxBusca{
     text-indent: 20px;
 }
 
+/* Formatação do banner */
+section.banner{
+    width: 100%;
+    height: 250px;
+}
+
+
+/* Formatação da linha do funda da página */
+p.rodape{
+    color: whitesmoke;
+    text-align: center;
+}
