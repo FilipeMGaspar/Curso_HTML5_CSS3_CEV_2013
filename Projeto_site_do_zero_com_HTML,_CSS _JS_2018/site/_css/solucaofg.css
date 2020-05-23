@@ -94,8 +94,19 @@ section.banner{
     background: url('../_img/banner980_250.jpg');
     padding: 2px;
     box-sizing: border-box;
+    color: whitesmoke;
+    text-align: center;
 }
 
+section.banner h1{
+    position: relative;
+    top: 50%;
+}
+
+section.banner p{
+    position: relative;
+    top: 50%
+}
 
 
 
