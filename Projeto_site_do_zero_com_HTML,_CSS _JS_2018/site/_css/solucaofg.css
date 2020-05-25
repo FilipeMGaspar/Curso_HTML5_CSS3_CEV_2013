@@ -97,7 +97,7 @@ section.banner{
     text-align: center;
     vertical-align: middle;
     background: url('../_img/banner980_250.jpg');
-    animation: banneranimado 6s linear infinite;
+    animation: banneranimado 6s ease-in infinite;
     animation-delay: 1s;
 }
 
