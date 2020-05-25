@@ -97,6 +97,8 @@ section.banner{
     text-align: center;
     vertical-align: middle;
     background: url('../_img/banner980_250.jpg');
+    animation: banneranimado 5s linear infinite;
+    animation-delay: 0.5s;
 }
 
 @keyframes banneranimado{
@@ -113,7 +115,7 @@ section.banner{
 
 div.backBanner{
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     position: relative;
 }
 
