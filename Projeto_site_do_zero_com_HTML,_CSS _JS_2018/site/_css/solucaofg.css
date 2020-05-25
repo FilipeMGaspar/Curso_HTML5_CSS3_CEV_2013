@@ -102,17 +102,14 @@ section.banner{
 }
 
 @keyframes banneranimado{
-    0%, 20%{
+    0%, 30%{
         background: url('../_img/banner980_250.jpg');
     }
-    25%, 50%{
+    35%, 70%{
         background: url('../_img/banner2_980px.jpg');        
     }
-    55%, 70%{
-        background: url('../_img/banner3_980px.jpg');
-    }
     75%, 100%{
-        background: url('../_img/banner4_980px.jpg'); 
+        background: url('../_img/banner3_980px.jpg');
     }
 }
 
