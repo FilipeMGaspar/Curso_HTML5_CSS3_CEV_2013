@@ -87,7 +87,7 @@ div.Menu ul a{
 div.Menu ul li:hover{
     color: #00bac6;
     border-bottom: 3px solid #00bac6;
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
 }
 
 div.Menu ul li.PaginaAtiva{
@@ -106,8 +106,19 @@ input.CxInpBusca{
     text-indent: 20px;
     height: 36px;
     width: 190px;
+    border: 1px solid #d6d6d6;
+    background: url('../_img/lupa_Cx_busca.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
 
+
+
+
+/* Formatação do menu para mobile - Dispositivos moveis*/
+div.MenuMobile{
+    visibility: hidden;
+}
 
 /* Formatação para dispositivos móveis*/
 @media only screen and (max-width: 750px){ 
@@ -115,6 +126,59 @@ input.CxInpBusca{
         visibility: hidden;
     }
 }
+
+
+@media only screen and (max-width: 550px){ 
+    div.Menu{
+        visibility: hidden;
+    }
+    div.MenuMobile{
+        visibility: visible;
+        color: whitesmoke;
+        float: left;
+        position: absolute;
+        top: 100px;
+        left: 25px;
+    }
+    div.MenuMobile ul{
+       list-style: none;
+       color: #818181; 
+       font-weight: bold;
+       font-size: 16pt;
+       text-transform: uppercase;
+       cursor: pointer;
+    }
+
+    div.MenuMobile ul li:hover{
+        color: #00bac6;
+        border-top: 2px solid #00bac6;; 
+    }
+
+    div.MenuMobile ul li:hover ul.MobileToshow{
+       visibility: visible;
+       background: whitesmoke;
+    }
+
+    div.MenuMobile ul li ul.MobileToshow{
+        visibility: hidden;
+        padding: 10px;
+    }
+
+    div.MenuMobile ul li ul.MobileToshow li{
+        margin-top: 5px;
+        padding: 5px;
+        border: none;
+    }
+
+    div.MenuMobile ul li ul.MobileToshow li:hover{
+        margin-top: 5px;
+        padding: 5px;
+        border: none;
+        text-decoration: underline;
+    }
+}
+
+
 
 @media only screen and (max-width: 320px){ 
     div.redessociais img{
