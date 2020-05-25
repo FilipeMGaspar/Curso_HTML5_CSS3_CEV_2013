@@ -74,6 +74,14 @@ div.Menu ul li{
     line-height: 80px;
 }
 
+div.Menu ul a{
+   text-decoration: none;
+   text-transform: uppercase;
+    font-weight: bold;
+   color: #818181;   
+}
+
+
 
 /* Formatação para dispositivos móveis*/
 
