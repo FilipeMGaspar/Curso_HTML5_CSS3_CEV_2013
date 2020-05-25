@@ -97,11 +97,11 @@ section.banner{
     text-align: center;
     vertical-align: middle;
     background: url('../_img/banner980_250.jpg');
-    animation: banneranimado 6s ease-in infinite;
-    animation-delay: 1s;
+    animation: banneranimado 6s ease-in infinite; /* Animação do banner*/
+    animation-delay: 1s; /* Animação do banner*/
 }
 
-@keyframes banneranimado{
+@keyframes banneranimado{/*Animação do banner*/
     0%, 30%{
         background: url('../_img/banner980_250.jpg');
     }
