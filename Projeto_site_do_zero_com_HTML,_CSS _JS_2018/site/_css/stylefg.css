@@ -11,7 +11,7 @@ body{
     color: #818181;
 }
 
-div#principal{
+main#principal{
     margin: auto;
     max-width: 980px;    
 }
@@ -22,11 +22,8 @@ div#principal{
 header.logo-rdsociais{
     height: 60px;
     margin: auto;
-}
-
-header.logo-rdsociais main{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 div.logo{
@@ -59,104 +56,11 @@ div.redessociais ul li{
     display: inline-block;
 }
 
-/* Formatação do menu de navegação*/
-section.menuNavegacao{
+/* Formatação do menu de navegação principal */
+nav.MenuPrincipal{
+    background: whitesmoke;
+    height: 60px;
     width: 100%;
-    background-color: whitesmoke;
-    height: 85px;
-    border-bottom: 2px solid #efefef;
-}
-
-nav.nenuprincipal{
-    width: 70%;
-    float: left;
-}
-
-ul.menuNav{
-    list-style: none;
-}
-
-ul.menuNav li{
-    text-transform: uppercase;
-    display: inline-block;
-    margin-top: 37px;
-    color: #00bac6;
-    margin-left: 13px;
-    margin-bottom: 31px;
-}
-
-ul.menuNav a{
-    text-decoration: none;
-}
-
-ul.menuNav a:hover{    
-    border-bottom: 3px solid #00bac6;
-    padding-bottom: 27px;
-}
-    
-    /* Formatação da caixa de pesquisa da barra de menu*/
-
-div.busca{
-    width: 30%;   
-    float: right;
-}
-
-input.cxBusca{
-    background: url('../_img/lupa_Cx_busca.png') no-repeat;
-    background-position: 96%;
-    margin-top: 21px;
-    height: 37px;
-    width: 190px;
-    border: 1px solid #d6d6d6;
-    clear: both;
-}
-
-/*Configuração do banner da página*/
-section#banner{
-    height: 446px;
-    box-sizing: border-box;
-    background: url('../_img/banner.jpg');
-}
-
-div.backgroud_banner{
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-}
-section#banner h1{
-    position: relative;/* ao div.backgroud_banner*/
-    color: whitesmoke;
-    margin-bottom: 0px;
-    top: 50%;   
-}
-
-section#banner p{
-    position: relative;/* ao div.backgroud_banner*/
-    color: whitesmoke;
-    top: 50%
-}
-
-/*Formatação do corpo do site */
-section#conteudo{
-    background-color: whitesmoke;
-    width: 100%;
-    text-align: center;
-    height: 545px;
-}
-
-section#conteudo span.destaque{
-    color: #646464;
-    font-weight: bolder;
-}
-
-section#conteudo h1{
-    padding: 10px;
-}
-
-section#conteudo p{
-    text-align: center;
 }
 
 /* Formatação para dispositivos móveis*/
