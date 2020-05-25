@@ -59,9 +59,21 @@ div.redessociais ul li{
 /* Formatação do menu de navegação principal */
 nav.MenuPrincipal{
     background: whitesmoke;
-    height: 60px;
+    height: 80px;
     width: 100%;
 }
+
+div.Menu{
+    color: #818181;
+}
+
+div.Menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 80px;
+}
+
 
 /* Formatação para dispositivos móveis*/
 
