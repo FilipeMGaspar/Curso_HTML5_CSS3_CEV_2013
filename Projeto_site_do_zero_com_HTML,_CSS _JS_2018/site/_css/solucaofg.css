@@ -54,14 +54,21 @@ nav.top-menu{
 }
 
 nav.top-menu ul li{
-    color: #00bac6;
     display: inline-block;
     margin-left: 15px;
     text-transform: uppercase;
     line-height: 85px;
+    color: #8b8b8b;
+    font-weight: bold;
+}
+
+nav.top-menu ul li.PageAtiva{
+    color: #00bac6;
+    border-bottom: 3px solid #00bac6;
 }
 
 nav.top-menu ul li:hover{
+    color: #00bac6;
     border-bottom: 3px solid #00bac6;
 }
 
