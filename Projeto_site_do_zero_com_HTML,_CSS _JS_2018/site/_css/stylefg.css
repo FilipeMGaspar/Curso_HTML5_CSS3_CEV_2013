@@ -61,10 +61,11 @@ nav.MenuPrincipal{
     background: whitesmoke;
     height: 80px;
     width: 100%;
+    border-bottom: 6px solid #cecece;
 }
 
 div.Menu{
-    color: #818181;
+    color: #818181;    
 }
 
 div.Menu ul li{
@@ -77,8 +78,13 @@ div.Menu ul li{
 div.Menu ul a{
    text-decoration: none;
    text-transform: uppercase;
-    font-weight: bold;
+   font-weight: bold;
    color: #818181;   
+}
+
+div.Menu ul li:hover{
+    color: #00bac6;
+    border-bottom: 3px solid #00bac6;
 }
 
 
