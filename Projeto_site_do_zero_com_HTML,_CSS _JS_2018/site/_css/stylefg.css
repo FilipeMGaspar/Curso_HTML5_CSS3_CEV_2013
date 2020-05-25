@@ -65,7 +65,8 @@ nav.MenuPrincipal{
 }
 
 div.Menu{
-    color: #818181;    
+    color: #818181;  
+    display: inline-block;  
 }
 
 div.Menu ul li{
@@ -85,8 +86,18 @@ div.Menu ul a{
 div.Menu ul li:hover{
     color: #00bac6;
     border-bottom: 3px solid #00bac6;
+    letter-spacing: 1.1px;
 }
 
+div.Menu ul li.PaginaAtiva{
+    color: #00bac6;
+    border-bottom: 3px solid #00bac6;
+}
+
+div.CxBusca{
+    display: inline-block;
+    
+}
 
 
 /* Formatação para dispositivos móveis*/
