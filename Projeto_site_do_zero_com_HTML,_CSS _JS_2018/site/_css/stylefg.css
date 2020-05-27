@@ -94,8 +94,6 @@ div.Menu ul li.PaginaAtiva{
     letter-spacing: 1.1px;
 }
 
-
-
 div.CxBusca{
     position: relative;
     float: right;
@@ -115,6 +113,10 @@ input.CxInpBusca{
 
 
 /*Formatação do banner*/
+section.banner{
+    width: 100%;
+    box-sizing: border-box;
+}
 
 
 
