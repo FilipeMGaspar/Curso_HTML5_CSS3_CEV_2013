@@ -131,6 +131,20 @@ div.BannerSlideshow h1{
     top: 50%;
 }
 
+div.BannerSlideshow p{
+    position: relative;
+    top: 50%;
+}
+
+div.BannerSlideshow a.prev{
+    position: relative;
+    top: 50%;
+}
+
+div.BannerSlideshow a.next{
+    position: relative;
+    top: 50%;
+}
 
 
 
