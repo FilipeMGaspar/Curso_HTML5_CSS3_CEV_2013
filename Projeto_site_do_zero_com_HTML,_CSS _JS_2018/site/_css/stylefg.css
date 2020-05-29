@@ -133,7 +133,7 @@ div.BannerSlideshow a.prev, a.next {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -153,13 +153,17 @@ div.BannerSlideshow a.prev{
     border-radius: 3px 0 0 3px;
 }
 
+/* Formatação quando o rato estiver sobre o elemento */
+div.BannerSlideshow a.prev:hover, a.next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
 /* Formatação do titulo do site e da descrição do site*/
 div.descritext{
     position: absolute;
     top: 30%;
     left: 30%;
 }
-
 
 
 
