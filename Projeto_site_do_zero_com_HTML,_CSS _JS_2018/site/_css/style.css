@@ -115,8 +115,9 @@ div.busca input{
 
 main.col-100{
     width: 100%;
-    float: left;
-    position: relative;
+    position: absolute;
+    /*float: left;
+    position: relative;*/
 }
 
 /* Formatação do Banner */
