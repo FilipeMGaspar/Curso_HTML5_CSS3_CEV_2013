@@ -125,21 +125,43 @@ div.BannerSlideshow{
     position: relative;
 }
 
-/*div.BannerSlideshow a.prev{
-    position: relative;
+/* Formatação dos Botões Seguinte e Anterior  */
+div.BannerSlideshow a.prev, a.next {
+    cursor: pointer;
+    position: absolute;
     top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-div.BannerSlideshow a.next{
-    position: relative;
-    top: 50%;
-}*/
+/* Posicionando o botão "Seginte" alinhado á direita */
+div.BannerSlideshow a.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+/* Posicionando o botão "Anterior" alinhado á esquerda */
+div.BannerSlideshow a.prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
 
+/* Formatação do titulo do site e da descrição do site*/
 div.descritext{
     position: absolute;
     top: 30%;
     left: 30%;
 }
+
+
+
 
 
 
