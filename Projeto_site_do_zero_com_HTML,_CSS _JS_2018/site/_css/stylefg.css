@@ -277,10 +277,9 @@ div.MenuMobile{
 }
 
 
-
-@media only screen and (max-width: 320px){ 
+@media only screen and (max-width: 375px){ 
     div.redessociais img{
-        margin-right: 5px;
+        margin-right: 7px;
     }
     section#banner{
         background-position: center;
@@ -293,9 +292,10 @@ div.MenuMobile{
     }
 }
 
-@media only screen and (max-width: 375px){ 
+
+@media only screen and (max-width: 320px){ 
     div.redessociais img{
-        margin-right: 7px;
+        margin-right: 5px;
     }
     section#banner{
         background-position: center;
