@@ -127,6 +127,7 @@ div.col-100{
     position: absolute;
 }
 
+/*Foramataçao das setas de anterior(prev) e seginte(next)*/
 button.slick-prev{
     font-size: 0;
     border: none;
@@ -137,6 +138,7 @@ button.slick-prev{
     position: absolute;
     z-index: 9;
     top: 50%;
+    left: 0;
 }
 
 button.slick-next{
@@ -151,3 +153,4 @@ button.slick-next{
     top: 50%;
     right: 0;
 }
+
