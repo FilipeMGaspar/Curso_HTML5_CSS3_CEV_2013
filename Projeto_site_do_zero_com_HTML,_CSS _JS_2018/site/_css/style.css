@@ -153,8 +153,15 @@ button.slick-next{
 }
 
 /*Formataçao dos pontos */
-ul.slick-dots li{
+ul.slick-dots li button{
     font-size: 0;
     border: 1px solid whitesmoke;
-    border-radius: 50%;    
+    border-radius: 50%;  
+    width: 20px;
+    height: 20px;  
+}
+
+
+ul.slick-dots li button.slick-active{
+    background-color: #00bac6;
 }
