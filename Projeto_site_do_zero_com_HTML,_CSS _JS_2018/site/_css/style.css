@@ -138,7 +138,7 @@ button.slick-prev{
     position: absolute;
     z-index: 9;
     top: 50%;
-    left: 0;
+    left: 15%;
 }
 
 button.slick-next{
@@ -151,6 +151,6 @@ button.slick-next{
     position: absolute;
     z-index: 9;
     top: 50%;
-    right: 0;
+    right: 15%;
 }
 
