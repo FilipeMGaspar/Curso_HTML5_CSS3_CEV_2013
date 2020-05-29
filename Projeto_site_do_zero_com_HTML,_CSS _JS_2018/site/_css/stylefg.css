@@ -126,16 +126,6 @@ div.BannerSlideshow{
     position: relative;
 }
 
-div.BannerSlideshow h1{
-    position: relative;
-    top: 50%;
-}
-
-div.BannerSlideshow p{
-    position: relative;
-    top: 50%;
-}
-
 div.BannerSlideshow a.prev{
     position: relative;
     top: 50%;
@@ -146,7 +136,9 @@ div.BannerSlideshow a.next{
     top: 50%;
 }
 
-
+div.descritext{
+    position: relative;
+}
 
 
 
