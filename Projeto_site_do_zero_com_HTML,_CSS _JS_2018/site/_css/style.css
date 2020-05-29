@@ -133,4 +133,7 @@ button.slick-prev{
     width: 25px;
     background-color: transparent;
     background-image: url('../_img/SetaLdEsq.png');
+    position: absolute;
+    z-index: 9;
+    top: 50%
 }
