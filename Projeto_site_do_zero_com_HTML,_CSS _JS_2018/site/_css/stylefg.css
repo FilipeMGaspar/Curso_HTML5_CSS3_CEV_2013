@@ -125,6 +125,10 @@ div.BannerSlideshow{
     position: relative;
 }
 
+div.BannerSlideshow div.mySlides {
+    display: none;
+}
+
 /* Formatação dos Botões Seguinte e Anterior  */
 div.BannerSlideshow a.prev, a.next {
     cursor: pointer;
