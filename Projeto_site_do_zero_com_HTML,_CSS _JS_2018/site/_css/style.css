@@ -125,3 +125,11 @@ div.col-100{
     margin-top: 50px;
     width: 100%;
 }
+
+button.slick-prev{
+    font-size: 0;
+    border: none;
+    height: 51px;
+    width: 25px;
+    
+}
