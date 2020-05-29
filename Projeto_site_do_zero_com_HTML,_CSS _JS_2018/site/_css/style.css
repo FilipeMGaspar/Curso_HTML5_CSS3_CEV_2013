@@ -115,7 +115,6 @@ div.busca input{
 
 main.col-100{
     width: 100%;
-    position: absolute;
     /*float: left;
     position: relative;*/
 }
@@ -123,8 +122,9 @@ main.col-100{
 /* Formatação do Banner */
 
 div.col-100{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
+    position: absolute;
 }
 
 button.slick-prev{
