@@ -200,5 +200,11 @@ div.content{
     text-align: center;   
 }
 
+div.content h1{
+    color: #818181;
+}
 
 
+div.content p{
+   color: #9a9a9a;
+}
