@@ -30,8 +30,7 @@ main{ /* Configuração geral para todo o site */
 div.logo{
     float: left;
     padding: 16px;
-    width: 70%;
-        
+    width: 70%;        
 }
 
 div.redes-sociais ul li{
@@ -46,8 +45,6 @@ div.redes-sociais{
     float: right;
 }
 
-
-
 /*Formatação do menu de navegação e caixa de busca*/
 
 /*main{
@@ -58,7 +55,7 @@ div.header-2{
     background-color: white;
     width: 980px;
     margin: 0 auto;
-    padding: 16px;
+    margin-top: 15px;
 }
 
 main.menu-urls{
@@ -126,7 +123,8 @@ div.col-100{
 div.slider-principal{
     width: 100%;
     position: relative;
-    left: 0;
+    left: 0px;
+    top: 0px;
     overflow: hidden;  
 }
 
