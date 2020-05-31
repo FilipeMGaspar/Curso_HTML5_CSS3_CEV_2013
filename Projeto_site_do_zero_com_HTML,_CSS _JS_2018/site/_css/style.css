@@ -157,8 +157,9 @@ button.slick-next{
 ul.slick-dots{
     margin: 0 auto;
     width: 50%;
-    position: relative;
-    left: 25%;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
 }
 
 ul.slick-dots li{
@@ -166,7 +167,7 @@ ul.slick-dots li{
 }
 
 ul.slick-dots li button{
-    font-size: 0;
+    font-size: 0px;
     border: 5px solid tomato;
     border-radius: 50%;  
     width: 20px;
