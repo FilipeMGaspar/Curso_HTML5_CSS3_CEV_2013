@@ -182,3 +182,11 @@ ul.slick-dots li button{
 ul.slick-dots li.slick-active button{
     background-color: #00bac6;
 }
+
+/*Formatação da div da primeira secção de conteudo */
+
+div.content{ 
+    margin: 0 auto;
+    width: 980px;    
+    position: relative;
+}
