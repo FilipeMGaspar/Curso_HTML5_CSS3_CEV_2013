@@ -179,6 +179,6 @@ ul.slick-dots li button{
 }
 
 
-ul.slick-dots li button.slick-active{
+ul.slick-dots li.slick-active button{
     background-color: #00bac6;
 }
