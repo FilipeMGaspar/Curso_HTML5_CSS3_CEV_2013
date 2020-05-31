@@ -160,6 +160,7 @@ ul.slick-dots{
     position: absolute;
     left: 50%;
     bottom: 2%;
+    
 }
 
 ul.slick-dots li{
@@ -171,7 +172,9 @@ ul.slick-dots li button{
     border: 5px solid tomato;
     border-radius: 50%;  
     width: 20px;
-    height: 20px;  
+    height: 20px;
+    background: transparent;
+    cursor: pointer;  
 }
 
 
