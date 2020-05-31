@@ -153,6 +153,11 @@ button.slick-next{
 }
 
 /*Formataçao dos pontos */
+
+ul.slick-dots{
+    margin: 0 auto;
+}
+
 ul.slick-dots li{
    display: inline-block; 
 }
