@@ -198,13 +198,15 @@ div.content{
     text-align: center;   
 }
 
-div.content h1{
+div.textoDestaque h1{
     color: #818181;
-    
 }
 
-/*646464*/
+div.textoDestaque h1 strong{
+    color: #646464;
+}
 
-div.content p{
+
+div.textoDestaque p{
    color: #9a9a9a;
 }
