@@ -263,6 +263,10 @@ div.col-3 figcaption h2{
     margin-bottom: 10px;
 }
 
+figure.teste{
+    position: relative;
+    top: 80px;
+}
 
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
