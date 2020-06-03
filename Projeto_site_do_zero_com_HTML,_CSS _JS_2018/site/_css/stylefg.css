@@ -232,27 +232,36 @@ div.sec1-textos p{
     text-align: justify;
 }
 
-div.col-3{
-    text-align: left;
+div.col-imac{
+    display: inline-block;
 }
 
-div.col-3 figure{
-    border: 1px solid black;
+div.col-imac figure{
+    width: 301px;
+    display: inline-block;
+
 }
 
-div.col-3 figcaption{
-    font-size: 8pt;
+
+div.col-pencil{
+    display: inline-block;
 }
 
-div.col-3 figcaption h3{
-    font-size: 11pt;
+div.col-pencil figure{
+    width: 301px;
+    display: inline-block;
+
 }
 
-div.col-3 figcaption p{
-    text-align: justify;
-    font-size: 8pt;
+div.col-image{
+    display: inline-block;
 }
 
+div.col-image figure{
+    width: 301px;
+    display: inline-block;
+
+}
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
