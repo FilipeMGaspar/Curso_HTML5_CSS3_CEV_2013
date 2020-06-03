@@ -216,15 +216,19 @@ section.sec1{
     width: 100%;
     background-color: whitesmoke;
     height: 545px;
+}
+
+div.sec1-textos{
     text-align: center;
 }
-
-section.sec1 h1{
-    padding: 10px;
+div.sec1-textos h1{
+   padding-top: 45px;
+   padding-bottom: 20px;
 }
 
-section.sec1 p{
-    padding: 10px;
+div.sec1-textos p{
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: justify;
 }
 
