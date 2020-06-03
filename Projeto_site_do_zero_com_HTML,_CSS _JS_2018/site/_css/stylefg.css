@@ -210,11 +210,22 @@ div.pontosBanner span.active, span.dot:hover {
     background-color: #717171;
 }
 
+/*Formatação da primeira secção onde se encontra o imac*/
 
 section.sec1{
     width: 100%;
     background-color: whitesmoke;
-    
+    height: 545px;
+    text-align: center;
+}
+
+section.sec1 h1{
+    padding: 10px;
+}
+
+section.sec1 p{
+    padding: 10px;
+    text-align: justify;
 }
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
