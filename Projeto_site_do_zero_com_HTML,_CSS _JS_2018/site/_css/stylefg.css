@@ -211,7 +211,11 @@ div.pontosBanner span.active, span.dot:hover {
 }
 
 
-
+section.sec1{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
