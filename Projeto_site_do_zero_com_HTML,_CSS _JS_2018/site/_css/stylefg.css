@@ -232,6 +232,28 @@ div.sec1-textos p{
     text-align: justify;
 }
 
+div.col-3{
+    text-align: left;
+}
+
+div.col-3 figure{
+    border: 1px solid black;
+}
+
+div.col-3 figcaption{
+    font-size: 8pt;
+}
+
+div.col-3 figcaption h3{
+    font-size: 11pt;
+}
+
+div.col-3 figcaption p{
+    text-align: justify;
+    font-size: 8pt;
+}
+
+
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
     visibility: hidden;
