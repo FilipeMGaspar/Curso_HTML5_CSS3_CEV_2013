@@ -151,8 +151,13 @@ div.info-textos{
     text-align: center;
 }
 
-div.info-textos h2{
-    
+div.info-textos h1{
+    color: #818181;
+    text-transform: uppercase;
+}
+
+div.info-textos h1 strong{
+    color: #646464;
 }
 
 div.info-textos p{
