@@ -142,7 +142,15 @@ section.banner p{
 section.sec-services{
     width: 100%;
     height: 545px;
+    background: whitesmoke;
 }
+
+div.info-textos{
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+
 
 /* Formatação da linha do funda da página */
 p.rodape{
