@@ -154,6 +154,7 @@ div.info-textos{
 div.info-textos h1{
     color: #818181;
     text-transform: uppercase;
+    padding: 15px;
 }
 
 div.info-textos h1 strong{
@@ -161,7 +162,27 @@ div.info-textos h1 strong{
 }
 
 div.info-textos p{
+    padding: 10px;
     text-align: justify;
+}
+
+
+div.col-3{
+    position: relative;
+    width: 32%;
+    display: inline-block;
+}
+
+div.col-3 figure{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+div.col-3 figure.imgcentral{/* Formatação da imagem central fica com alinhamento diferente*/
+    position: relative;
+    top: 80px;
 }
 
 
