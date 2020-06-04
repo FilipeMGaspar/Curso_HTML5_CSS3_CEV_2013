@@ -148,8 +148,16 @@ section.sec-services{
 div.info-textos{
     box-sizing: border-box;
     padding: 15px;
+    text-align: center;
 }
 
+div.info-textos h2{
+    
+}
+
+div.info-textos p{
+    text-align: justify;
+}
 
 
 /* Formatação da linha do funda da página */
