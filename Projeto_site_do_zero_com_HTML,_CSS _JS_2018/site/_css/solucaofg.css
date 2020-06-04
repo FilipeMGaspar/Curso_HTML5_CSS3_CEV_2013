@@ -182,7 +182,19 @@ div.col-3 figure{
 
 div.col-3 figure.imgcentral{/* Formatação da imagem central fica com alinhamento diferente*/
     position: relative;
-    top: 80px;
+    top: 70px;
+}
+
+div.col-3 img{
+    margin-bottom: 15px;
+}
+
+div.col-3 figcaption{
+    color: #9a9a9a;
+}
+
+div.col-3 figcaption h2 strong{
+    color: #7b7b7b;
 }
 
 
