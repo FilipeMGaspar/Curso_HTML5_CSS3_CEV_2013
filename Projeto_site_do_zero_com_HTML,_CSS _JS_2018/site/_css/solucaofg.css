@@ -47,7 +47,7 @@ div.redes-sociais ul li{
 
 nav.top-menu{
     clear: both;
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
     height: 85px;
     border-bottom: 4px solid #efefef;
@@ -100,7 +100,7 @@ section.banner{
     width: 100%;
     height: 250px;
     box-sizing: border-box;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     vertical-align: middle;
     background: url('../_img/banner980_250.jpg');
@@ -142,7 +142,7 @@ section.banner p{
 section.sec-services{
     width: 100%;
     height: 545px;
-    background: whitesmoke;
+    background: white;
 }
 
 div.info-textos{
@@ -200,7 +200,7 @@ div.col-3 figcaption h2 strong{
 /* Formatação da galeria de imagens na mesma página */
 section.galeria{
     width: 100%;
-    background: whitesmoke;
+    background: white;
     height: 517px;
 }
 
@@ -212,7 +212,7 @@ div.back-galeria{
 }
 /* Formatação da linha do funda da página */
 p.rodape{
-    color: whitesmoke;
+    color: white;
     text-align: center;
     margin-top: 10px;
 }
