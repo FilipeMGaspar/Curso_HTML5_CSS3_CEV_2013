@@ -197,6 +197,11 @@ div.col-3 figcaption h2 strong{
     color: #7b7b7b;
 }
 
+/* Formatação da galeria de imagens na mesma página */
+section.galeria{
+    width: 100%;
+    background: whitesmoke;
+}
 
 /* Formatação da linha do funda da página */
 p.rodape{
