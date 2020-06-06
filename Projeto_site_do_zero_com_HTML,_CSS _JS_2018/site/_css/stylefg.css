@@ -209,7 +209,7 @@ div.pontosBanner span.active, span.dot:hover {
     background-color: #717171;
 }
 
-/*Formatação da primeira secção onde se encontra o imac*/
+/*Formatação da secção de serviços onde se encontra a imagem do Imac*/
 
 section.sec1{
     width: 100%;
@@ -268,7 +268,7 @@ figure.teste{
 }
 
 
-/* Formatação da galeria ná página inicial*/
+/* Formatação da galeria de fotos que se encontra na página inicial*/
 
 section.galeria{
     width: 100%;
