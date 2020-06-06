@@ -16,7 +16,6 @@ main#principal{
     max-width: 980px;    
 }
 
-
 /*Formatação do topo da página*/
 
 header.logo-rdsociais{
@@ -58,7 +57,7 @@ div.redessociais ul li{
 
 /* Formatação do menu de navegação principal */
 nav.MenuPrincipal{
-    background: whitesmoke;
+    background: white;
     height: 80px;
     width: 100%;
     border-bottom: 6px solid #cecece;
@@ -272,7 +271,8 @@ figure.teste{
 /* Formatação da galeria ná página inicial*/
 
 section.galeria{
-    
+    width: 100%;
+    background: white;
 }
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
