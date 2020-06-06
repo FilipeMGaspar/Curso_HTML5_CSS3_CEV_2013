@@ -269,6 +269,12 @@ figure.teste{
 }
 
 
+/* Formatação da galeria ná página inicial*/
+
+section.galeria{
+    
+}
+
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
     visibility: hidden;
