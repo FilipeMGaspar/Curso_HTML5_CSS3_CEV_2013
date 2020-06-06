@@ -276,6 +276,11 @@ section.galeria{
     height: 517px;
 }
 
+div.backgroundgaleria{
+    width: 100%;
+    height: 100%;
+}
+
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
     visibility: hidden;
