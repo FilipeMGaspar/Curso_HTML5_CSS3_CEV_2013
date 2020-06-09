@@ -215,7 +215,13 @@ div.textoDestaque p{
 }
 
 div.col-3{
-    width: 33.3%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
     float: left;
     position: relative;
+}
+
+div.bloco-texto{
+    margin-top: 3em;
 }
