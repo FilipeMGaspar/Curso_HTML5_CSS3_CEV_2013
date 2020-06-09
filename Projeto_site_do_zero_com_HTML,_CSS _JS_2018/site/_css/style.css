@@ -225,3 +225,8 @@ div.col-3{
 div.bloco-texto{
     margin-top: 3em;
 }
+
+div.col-3 h3{
+    font-weight: normal;
+}
+
