@@ -213,3 +213,9 @@ div.textoDestaque p{
    color: #9a9a9a;
    font-size: 15px;
 }
+
+div.col-3{
+    width: 33.3%;
+    float: left;
+    position: relative;
+}
