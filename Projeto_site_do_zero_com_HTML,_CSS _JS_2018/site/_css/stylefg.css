@@ -285,7 +285,7 @@ div.backgroundgaleria{
 
 div.backgroundgaleria ul{
   position: relative;
-  top: 20px;
+  top: 25px;
   list-style: none;
   text-align: center;
 }
@@ -299,7 +299,7 @@ div.backgroundgaleria ul li{
 div.backgroundgaleria ul li img{
     width: 280px;
     height: 156px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 div.backgroundgaleria ul h2{
@@ -313,6 +313,8 @@ div.backgroundgaleria ul p{
     font-size: 10pt;
     text-align: justify;
 }
+
+
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
