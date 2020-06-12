@@ -283,6 +283,22 @@ div.backgroundgaleria{
     background-repeat: no-repeat;
 }
 
+div.backgroundgaleria ul{
+  position: relative;
+  top: 60px;
+  list-style: none;
+  text-align: center;
+}
+
+div.backgroundgaleria ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.backgroundgaleria ul li img{
+    width: 310px;
+    height: 186px;
+}
 
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
