@@ -293,13 +293,24 @@ div.backgroundgaleria ul{
 div.backgroundgaleria ul li{
     display: inline-block;
     margin-right: 10px;
+    box-sizing: border-box;
 }
 
 div.backgroundgaleria ul li img{
-    width: 310px;
-    height: 186px;
+    width: 280px;
+    height: 156px;
 }
 
+div.backgroundgaleria ul h2{
+    text-align: justify;
+    font-size: 14pt;
+}
+
+div.backgroundgaleria ul p{
+    box-sizing: border-box;
+    font-size: 10pt;
+    text-align: justify;
+}
 
 /* Formatação do menu para mobile - Dispositivos moveis*/
 div.MenuMobile{
