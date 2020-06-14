@@ -210,6 +210,10 @@ div.back-galeria{
     background: url('../_img/galeriaBckg.png');
     background-repeat: no-repeat;
 }
+
+div.back-galeria figure{
+
+}
 /* Formatação da linha do funda da página */
 p.rodape{
     color: white;
