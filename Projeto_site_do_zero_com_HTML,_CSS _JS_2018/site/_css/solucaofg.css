@@ -204,7 +204,15 @@ section.galeria{
     height: 517px;
 }
 
+div.back-triang{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 div.back-galeria{
+    margin-top: 0px;
     width: 100%;
     height: 100%;
     background: url('../_img/back.jpg');
@@ -212,6 +220,8 @@ div.back-galeria{
 }
 
 div.back-galeria figure{
+    position: relative;
+    top: 20px;
     border: 1px solid black;
 
 }
