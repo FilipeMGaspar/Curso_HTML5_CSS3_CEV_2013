@@ -212,6 +212,7 @@ div.back-galeria{
 }
 
 div.back-galeria figure{
+    border: 1px solid black;
 
 }
 /* Formatação da linha do funda da página */
