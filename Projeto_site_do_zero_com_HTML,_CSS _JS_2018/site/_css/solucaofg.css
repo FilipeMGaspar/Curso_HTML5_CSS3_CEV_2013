@@ -207,7 +207,7 @@ section.galeria{
 div.back-galeria{
     width: 100%;
     height: 100%;
-    background: url('../_img/galeriaBckg.png');
+    background: url('../_img/back.jpg');
     background-repeat: no-repeat;
 }
 
